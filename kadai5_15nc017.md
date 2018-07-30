@@ -48,12 +48,12 @@ end;
 計算した結果、分散比の最大は以下の値になった  
 disp(max_val)  
 
-    0.7831
+    0.9504
 
 計算した結果、しきい値は以下の値になった  
 disp(max_thres)  
     
-    138
+    58
 
 IMG = ORG > max_thres;  
 imagesc(IMG); colormap(gray); colorbar;  
