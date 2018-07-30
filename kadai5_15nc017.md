@@ -13,7 +13,7 @@ magesc(ORG); colormap(gray); colorbar; % 画像の表示
 によって，原画像を白黒濃淡画像へ変換し，表示した結果を図１に示し原画像とする．  
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/5-1.jpg?raw=true)  
-図1 白黒濃淡画像
+図1. 白黒濃淡画像
 
 判別分析法を用いて、もっとも効果的な2値化のしきい値を見つける  
 判別分析法とは以下の手順で2値化するしきい値を生成する方法である  
@@ -58,6 +58,6 @@ disp(max_thres)
 IMG = ORG > max_thres;  
 imagesc(IMG); colormap(gray); colorbar;  
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/5-2.jpg?raw=true)  
-図2 2値化画像
+図2. 2値化画像
 
 このようにもっとも効率のよい２値化を行った2値化画像が生成できる
