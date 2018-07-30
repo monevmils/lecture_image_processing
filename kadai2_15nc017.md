@@ -6,12 +6,12 @@
 フリー画像「大曲の花火夜の部幕開け」を元画像とする．この画像は縦1600画像，横1066画素によるディジタルカラー画像である．  
 素材元：[ぱくたそ](https://www.pakutaso.com/20180643172post-16577.html,"画像元リンク")
 
-ORG=imread('coast.jpg'); % 原画像の入力  
+ORG=imread('hanabi.jpg'); % 原画像の入力  
 imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/coast.jpg?raw=true)  
+![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/hanabi.jpg?raw=true)  
 図1 原画像
 
 原画像を2階調にするため、しきい値を128にもうけ、２値化する
