@@ -12,7 +12,7 @@ imagesc(ORG); axis image; % 画像の表示
 によって，原画像を読み込み，表示した結果を図１に示す．
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/hanabi.jpg?raw=true)  
-図1 原画像
+図1. 原画像
 
 原画像を2階調にするため、しきい値を128にもうけ、２値化する
 
@@ -23,7 +23,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 結果を図２に示す．
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/2-1.jpg?raw=true)  
-図2 2階調
+図2. 2階調
 
 同様に4階調原画像にするためには64ごとにしきい値を設け、輝度値を分類する.
 
@@ -36,7 +36,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 とする．4階調の結果を図３に示す．
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/2-2.jpg?raw=true)  
-図3 4階調
+図3. 4階調
 
 同様に8階調原画像にするためには8ごとにしきい値を設け、輝度値を分類する.
 
@@ -53,6 +53,6 @@ IMG = IMG3 + IMG4 + IMG5 + IMG6 + IMG7 + IMG8 + IMG9 + IMG10 + IMG11;
 imagesc(IMG); colormap(gray); colorbar;  axis image;  
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/2-3.jpg?raw=true)  
-図4 8階調
+図4. 8階調
 
 このように階調を増やすとグレイスケールが細やかに表現できる．
