@@ -12,7 +12,7 @@ magesc(ORG); colormap(gray); colorbar; % 画像の表示
 によって，原画像を白黒濃淡画像へ変換し，表示した結果を図１に示し原画像とする．  
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/3-1.jpg?raw=true)  
-図1 白黒濃淡画像
+図1. 白黒濃淡画像
 
 原画像に対し、輝度値が64以上を1にするようしきい値を調整し、２値化していく
 
@@ -22,7 +22,7 @@ imagesc(IMG); colormap(gray); colorbar;
 結果を図２に示す．
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/3-2.jpg?raw=true)  
-図2 しきい値64
+図2. しきい値64
 
 原画像に対し、輝度値が96以上を1にするようしきい値を調整し、２値化していく
 
@@ -32,7 +32,7 @@ imagesc(IMG); colormap(gray); colorbar;
 結果を図3に示す．
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/3-3.jpg?raw=true)  
-図3 しきい値96
+図3. しきい値96
 
 原画像に対し、輝度値が128以上を1にするようしきい値を調整し、２値化していく
 
@@ -42,7 +42,7 @@ imagesc(IMG); colormap(gray); colorbar;
 結果を図4に示す．
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/3-4.jpg?raw=true)  
-図4 しきい値128
+図4. しきい値128
 
 原画像に対し、輝度値が192以上を1にするようしきい値を調整し、２値化していく  
 
@@ -52,6 +52,6 @@ imagesc(IMG); colormap(gray); colorbar;
 結果を図5に示す．
 
 ![原画像](https://github.com/monevmils/lecture_image_processing/blob/master/image/3-5.jpg?raw=true)  
-図5 しきい値192
+図5. しきい値192
 
 このように輝度値を1にするしきい値を調整すると2値化画像の白・黒を調整できる．
